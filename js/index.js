@@ -40,3 +40,4 @@ boton.addEventListener('click', function () {
     peticionFetch();
 });
 })
+

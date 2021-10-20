@@ -23,17 +23,34 @@ h1{
   margin: 20px 0;
 }
 
-h2, img, p {
-  text-align: center;
-}
 
-.tarjeta{
+
+/*.tarjeta{
   background-color: white;
   border-radius: 20px;
   margin: 0 auto;
   height: 250px;
   width: 50%;
   max-width: 400px;
+}*/
+
+.tarjeta {
+	background-color: #fff;
+	border-radius: 3px;
+	padding: 30px;
+	margin: 0 auto;
+	text-align: center;
+	width: 300px;
+	max-width: 100%;
+}
+
+.tarjeta img {
+	border-radius: 50%;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.tarjeta p {
+  color: #777;
 }
 
 .btnContainer{
@@ -41,5 +58,11 @@ h2, img, p {
   text-align: center;
 }
 .btnContainer button{
-  padding: 5px 15px;
+  background-color: white;
+	border: 0;
+	border-radius: 3px;
+	color: black;
+	padding: 10px 25px;
+	margin-top: 25px;
 }
+
